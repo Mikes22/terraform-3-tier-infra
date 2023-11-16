@@ -33,6 +33,7 @@ resource "aws_security_group" "rds_sg" {
 
 
 
+
 resource "aws_db_instance" "rds" {
   allocated_storage    = 10
   db_name              = "jjtech"
